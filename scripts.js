@@ -1,5 +1,5 @@
 const key = '4e258a4396bf5ba0448b2e2fe574034e'
-const flickrSearchUrl = "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=4e258a4396bf5ba0448b2e2fe574034e&format=json&extras=views, url_s&tags="
+const flickrSearchUrl = `https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=${key}&format=json&extras=views, url_s&tags=`
 
 const searchBar = document.getElementById("searchBar");
 const searchButton = document.getElementById("searchButton");
