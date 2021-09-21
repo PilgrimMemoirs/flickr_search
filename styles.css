@@ -1,0 +1,39 @@
+body {
+  background-color: #eee;
+  font-family: sans-serif;
+}
+
+#alert {
+  color: red;
+}
+
+.search input, .search button {
+  height: 3rem;
+}
+
+#thumbs {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+}
+
+#thumbs div {
+  position: relative;
+  background-color: black;
+}
+
+#thumbs p {
+  position: absolute;
+  top: 65px;
+  left: 65px;
+  margin: 0 auto;
+  z-index: 10;
+  color: white;
+}
+
+#thumbs img {
+  object-fit: cover;
+  width: 150px;
+  height: 150px;
+  opacity: 0.5;
+}
